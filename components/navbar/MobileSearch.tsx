@@ -20,6 +20,7 @@ const MobileSearch = () => {
         flexDirection: 'column',
         height: '100%',
         pt: '$4',
+        backgroundColor:'black'
       }}
     >
       <GlobalSearch placeholder="Search collections and addresses" />
@@ -57,7 +58,7 @@ const MobileSearch = () => {
     <DialogRoot modal={false}>
       <DialogTrigger asChild>
         <Button
-          css={{ justifyContent: 'center', width: '44px', height: '44px', color:"white" }}
+          css={{ justifyContent: 'center', width: '44px', height: '44px', color:"white", backgroundColor:'black' }}
           type="button"
           size="small"
        

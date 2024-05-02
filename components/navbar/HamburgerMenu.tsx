@@ -30,7 +30,7 @@ const HamburgerMenu = () => {
 
   const trigger = (
     <Button
-      css={{ justifyContent: 'center', width: '44px', height: '44px', color:"white" }}
+      css={{ justifyContent: 'center', width: '44px', height: '44px', color:"white", backgroundColor:'black' }}
       type="button"
       size="small"
      

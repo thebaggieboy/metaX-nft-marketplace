@@ -20,6 +20,7 @@ const CartButton = () => {
             width: '44px',
             height: '44px',
             position: 'relative',
+            backgroundColor:'black'
           }}
           size="small"
         

@@ -12,7 +12,7 @@ const Layout: FC<Props> = ({ children }) => {
     <>
       <Box
         css={{
-          background: '#FFD166',
+          background: 'white',
           height: '100%',
           minHeight: '100vh',
           pt: 80,
