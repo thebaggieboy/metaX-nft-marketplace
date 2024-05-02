@@ -57,10 +57,10 @@ const MobileSearch = () => {
     <DialogRoot modal={false}>
       <DialogTrigger asChild>
         <Button
-          css={{ justifyContent: 'center', width: '44px', height: '44px' }}
+          css={{ justifyContent: 'center', width: '44px', height: '44px', color:"white" }}
           type="button"
           size="small"
-          color="white"
+       
         >
           <FontAwesomeIcon icon={faMagnifyingGlass} width={16} height={16} />
         </Button>

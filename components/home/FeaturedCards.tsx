@@ -210,9 +210,9 @@ export const FeaturedCards: React.FC<FeaturedCardsProps> = ({
                         <Box css={{ mr: '$5' }}>
                           <Text
                             
-                            color="bold"
+                           
                             as="p"
-                            css={{ mb: 2, padding:10, margin:0}}
+                            css={{ mb: 2, padding:10, margin:0, color:'black'}}
                           >
                            <p style={{fontSize:14,  fontFamily: "Poppins, Sans-serif",}}>Floor Price</p>
                            <FormatCryptoCurrency
@@ -233,8 +233,8 @@ export const FeaturedCards: React.FC<FeaturedCardsProps> = ({
                         </Box>
 
                         <Box css={{ mr: '$4', padding:10 }}>
-                          <Text style="subtitle2" color="black" as="p">
-                          <p style={{fontSize:14,  fontFamily: "Poppins, Sans-serif",}}>6h Sales</p>
+                          <Text style="subtitle2"  as="p">
+                          <p style={{fontSize:14,  fontFamily: "Poppins, Sans-serif", color:"black"}}>6h Sales</p>
                           </Text>
                           <Text css={{ mt: 2 }}>
                            <p style={{fontSize:14, fontWeight:'bold', fontFamily: "Poppins, Sans-serif"}}> {collection.count?.toLocaleString()}</p>
