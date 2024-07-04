@@ -31,22 +31,9 @@ const SectionLink: FC<SectionLinkProps> = ({ name, href }) => (
 )
 
 const developerSectionLinks = [
-  {
-    name: 'Docs',
-    href: 'https://docs.reservoir.tools/docs',
-  },
-  {
-    name: 'API Reference',
-    href: 'https://docs.reservoir.tools/reference/overview',
-  },
-  {
-    name: 'Github',
-    href: 'https://github.com/reservoirprotocol',
-  },
-  {
-    name: 'Testnets',
-    href: 'https://testnets.reservoir.tools',
-  },
+
+ 
+
 ]
 
 const companySectionLinks = [
@@ -85,12 +72,7 @@ export const Footer = () => {
       }}
     >
       <Flex css={{ gap: 80, '@bp600': { gap: 136 } }}>
-        <Flex direction="column">
-          <SectionTitle title="Developers" />
-          {developerSectionLinks.map((props) => (
-            <SectionLink key={props.name} {...props} />
-          ))}
-        </Flex>
+        
         <Flex direction="column">
           <SectionTitle title="Company" />
           {companySectionLinks.map((props) => (
@@ -102,7 +84,7 @@ export const Footer = () => {
         direction="column"
         css={{ alignItems: 'flex-start', '@bp600': { alignItems: 'flex-end' } }}
       >
-        <SectionTitle title="Join Reservoir Community" />
+        <SectionTitle title="Join MetaXchange Community" />
         <Flex css={{ gap: '$4', mt: 16 }}>
           <a
             target="_blank"

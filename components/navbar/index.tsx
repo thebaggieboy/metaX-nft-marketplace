@@ -65,8 +65,8 @@ const Navbar = () => {
       <Box css={{ flex: 1 }}>
         <Flex align="center">
           <Link href={`/${routePrefix}`}>
-            <Box css={{ width: 52, cursor: 'pointer', fontWeight: "bold" }}>
-             <NavItem>Meta.exchange</NavItem>
+            <Box css={{ width: 52, cursor: 'pointer', fontWeight: "bold", fontSize:14 }}>
+             <NavItem>MetaXchange</NavItem>
             </Box>
           </Link>
         </Flex>
@@ -111,8 +111,8 @@ const Navbar = () => {
       >
         <Flex align="center">
           <Link href={`/${routePrefix}`}>
-            <Box css={{ cursor: 'pointer', fontWeight: "bold" }}>
-            <NavItem >Meta.exchange</NavItem>
+            <Box css={{ cursor: 'pointer', fontWeight: "bold", fontSize:14 }}>
+            <NavItem >MetaXchange</NavItem>
             </Box>
           </Link>
           <Flex
